@@ -1,8 +1,10 @@
 name: Hola Mundo Workflow
 
 on:
-  push:
-     branches: [ "main" ]
+  workflow_dispatch:
+  #las dos de abajo es para que se ejecute inmediatamente se carga
+  #push:
+  #   branches: [ "main" ]
 
 jobs:
   saludo:
