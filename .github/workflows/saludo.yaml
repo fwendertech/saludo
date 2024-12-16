@@ -2,10 +2,10 @@ name: Hola Mundo Workflow
 
 on:
    push:
-     branches:["main"]
+     branches:[ "main" ]
 
 jobs:
-  hola-mundo:
+  saludo:
    runs-on: ubuntu-latest
 
    steps:
